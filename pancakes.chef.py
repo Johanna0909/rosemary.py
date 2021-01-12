@@ -37,7 +37,8 @@ for i in range (8):
     pan.flip
     pan.cook(minutes=1)
 
-    #If you only want single pancakes on your plate:
+    #And plate!
+    # If you only want single pancakes on your plate:
     #plate = Plate.use()
     #pancake = pan.take()
     #plate.add(pancake)

@@ -15,14 +15,14 @@ for i in range(4):
     sugar = Sugar.take(grams=50)
     bowl.add(sugar)
     bowl.add(sugar)
-    bowl.mix
+    bowl.mix()
 
 #Once this is smooth add the eggs seperately
 for i in range(2):
     egg = Egg.take()
     egg.crack()
     bowl.add(egg)
-    bowl.mix
+    bowl.mix()
 
 #And for flavor:salt
 bowl.add (Salt.take(' a pinch'))
@@ -58,5 +58,6 @@ plate = Plate.use()
 cookies = tray.take()
 plate.add(cookies)
 
-#But wait
+#But wait for them to cool down!
 Rosemary.serve(plate)
+#Eet smakelijk!

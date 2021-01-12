@@ -49,4 +49,4 @@ pancake = pan.take()
 plate.add(pancake)
 
 Rosemary.serve(plate)
-#Eet smakelijk!
+#Bon Appetit!

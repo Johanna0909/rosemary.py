@@ -46,7 +46,7 @@ for i in range (5):
 Rosemary.taste(bowl)
 
 #put generous scoopfuls of batter on the baking tray, making sure to keep distance!
-tray = BakingTray.use()
+tray = BakingTray.use('Cookies')
 for i in range (16):
     tray.add(bowl.take('1/16'))
 

@@ -11,6 +11,7 @@ number= random.randint (1,10)
 print(number)
 print ('times a serving of 8 pancakes') 
 
+#for that many pancakes we need a lot of batter!
 for i in range(number):
     #whisk the eggs until frothy
     for egg in Egg.take(2):
